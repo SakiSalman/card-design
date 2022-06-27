@@ -1,0 +1,114 @@
+/* Card responsive css starts */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {...}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {...}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {...}
+
+/* Large devices (laptops/desktops, 992px and up) */
+
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (max-width: 1399px) {
+    
+    .card-wrap {
+        
+        background-position: center !important;
+        background-size: contain !important;
+        padding: 52px 70px 40px 40px;
+        box-sizing: border-box;
+        overflow: hidden;
+    }
+  
+    .card-wrap::before {
+        
+        left: 7.2%;
+        
+    }
+    .card-wrap::after {
+        right: 12.2%;
+    }
+
+    .card-body-wrap {
+        width: 100%;
+        min-height: auto;
+    }
+    .header-wrap { 
+        height: 245px;
+     
+    }
+    .header-wrap .company-tag h2 {
+        font-size: 24px;
+        
+    }
+    .header-wrap .company-tag p {
+        font-size: 16px;
+    }
+    .avater-circle1 {
+        width: 150px;
+        height: 150px;
+   
+    }
+    .avater-circle2 {
+
+        width: 140px;
+        height: 140px;
+
+    }
+    
+
+    .name-area {
+        padding-top: 63px;
+    }
+    .image-wrap img {
+        width: 96px;
+    }
+    .name-area {
+        padding-top: 23px;
+    }
+    .name-area p {
+        padding-bottom: 0;
+    }
+    .content-middle ul li {
+        font-size: 17px;
+    }
+    .content-right-middle ul li {
+        font-size: 17px;
+    }
+    .barcode-wrap img {
+        padding: 17px 0 29px 0px;
+    }
+
+}
+@media only screen and (max-width: 1199px) {
+    .card-wrap {
+        padding: 52px 64px 40px 40px;
+    }
+    .header-wrap {
+        height: 198px;
+    }
+    .image-wrap {
+        top: 33px;
+    }
+    .circle-wrap {
+
+        bottom: -54px;
+    
+    }
+    .name-area h2 {
+        font-size: 25px;
+    }
+    .name-area p {
+        font-size: 18px;
+    }
+    .barcode-wrap img {
+        padding: 14px 0 11px 0px;
+    }
+}
+
+/* Card responsive css end */
